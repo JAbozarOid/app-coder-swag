@@ -1,0 +1,16 @@
+//
+//  ProductCell.swift
+//  coder-swag
+//
+//  Created by ARATEL on 9/18/18.
+//  Copyright © 2018 ARATEL. All rights reserved.
+//
+
+import UIKit
+
+class ProductCell: UICollectionViewCell {
+    
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productTitle: UILabel!
+    @IBOutlet weak var productPrice: UILabel!
+}
